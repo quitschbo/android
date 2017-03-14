@@ -14,5 +14,7 @@
   <project path="frameworks/base" name="quitschbo/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="losng" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="quitschbo/android_vendor_cm" revision="losng"/>
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="quitschbo/android_packages_apps_PackageInstaller" groups="pdk-fs" revision="losng"/>
 
 </manifest>
