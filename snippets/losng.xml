@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="master" />
+  <project path="packages/apps/GsfProxy" name="microg/android_packages_apps_GsfProxy" remote="github" revision="master" />
+  <project path="packages/apps/FakeStore" name="microg/android_packages_apps_FakeStore" remote="github" revision="master" />
+
+  <project path="packages/apps/FDroid" name="fdroid/fdroidclient" remote="gitlab" revision="refs/tags/v0.102.1" />
+<project path="packages/apps/Launcher3" name="quitschbo/android_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="losng"/>
+
+  <remove-project name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="quitschbo/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="losng" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <project path="vendor/cm" name="quitschbo/android_vendor_cm" revision="losng"/>
+
+</manifest>
