@@ -3,18 +3,16 @@
 
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
-  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="master" />
+  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="0f3a472a11aa853edda3b79bc73e5bacf9f1ba9e" />
   <project path="packages/apps/GsfProxy" name="microg/android_packages_apps_GsfProxy" remote="github" revision="master" />
   <project path="packages/apps/FakeStore" name="microg/android_packages_apps_FakeStore" remote="github" revision="master" />
 
-  <project path="packages/apps/FDroid" name="fdroid/fdroidclient" remote="gitlab" revision="refs/tags/v0.102.1" />
-<project path="packages/apps/Launcher3" name="quitschbo/android_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="losng"/>
+  <project path="packages/apps/FDroid" name="fdroid/fdroidclient" remote="gitlab" revision="refs/tags/v0.102.3" />
+  <project path="packages/apps/Launcher3" name="quitschbo/android_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="losng"/>
 
   <remove-project name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="quitschbo/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="losng" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="quitschbo/android_vendor_cm" revision="losng"/>
-  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="quitschbo/android_packages_apps_PackageInstaller" groups="pdk-fs" revision="losng"/>
 
 </manifest>
