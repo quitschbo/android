@@ -3,7 +3,7 @@
 
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
-  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="0f3a472a11aa853edda3b79bc73e5bacf9f1ba9e" />
+  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="master" />
   <project path="packages/apps/GsfProxy" name="microg/android_packages_apps_GsfProxy" remote="github" revision="master" />
   <project path="packages/apps/FakeStore" name="microg/android_packages_apps_FakeStore" remote="github" revision="master" />
 
